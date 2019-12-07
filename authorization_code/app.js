@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = process.env.REACT_APP_APP_ID; // Your client id
 var client_secret = process.env.REACT_APP_APP_SECRET; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://clever-wescoff-96c0a7.netlify.com/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
